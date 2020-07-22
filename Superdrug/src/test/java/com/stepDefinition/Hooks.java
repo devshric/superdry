@@ -27,9 +27,9 @@ public class Hooks extends BaseClass {
 	}
 	}
 
-	//@After
-	//public void close() {
-		//driver.close();
+	@After
+	public void close() {
+		driver.close();
 	}
 		
 	}
